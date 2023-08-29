@@ -1,24 +1,11 @@
-
-import logo from './Screenshot 2023-08-29 130939.png';
-
-
+import logo from "./Screenshot 2023-08-29 130939.png";
+import './App.scss';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="todo">
+      <div className="todo__header">Header</div>
+      <div className="todo__sidebar">SideBar</div>
+      <div className="todo__content">TodoContent</div>
     </div>
   );
 }
