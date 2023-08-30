@@ -8,6 +8,8 @@ $primary: blue;
 $grey-light: #eaeaea;
 $grey-dark: #808080; 
 $white: #fff;
+$header-height: 60px;
+$sidebar-width : 375px;
 
 
 //Global reset
@@ -32,4 +34,8 @@ body {
 
     color: $primary ; /*เรียกใช้ primary */
     
+}
+
+li {
+    list-style: none;
 }
